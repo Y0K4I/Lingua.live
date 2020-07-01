@@ -1,0 +1,49 @@
+.images
+    margin-top: 75px
+    &-block-one 
+        height: 500px
+        width: 100%
+        background-color: #2a293f
+        display: flex
+        align-items: center
+        justify-content: space-around
+        flex-wrap: wrap
+    &-block-two
+        height: 800px
+        width: 100%
+        background-color: #039900
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: center 
+        overflow: hidden
+        &_firstrow
+            display: flex
+            flex-flow: row-nowrap
+            width: 100%
+            justify-content: space-around
+            align-items: center
+            margin-bottom: 20px 
+        &_secondrow
+            display: flex
+            flex-flow: row-nowrap
+            width: 100%
+            justify-content: space-between
+    
+    @media screen and (max-width: 1000px)
+        .images-block-one
+            height: 1000px
+            img
+                margin-top: 10px
+    @media screen and (max-width: 768px)
+        .images-block-one
+            height: 1000px
+            img
+                margin-top: 10px 
+    @media screen and (max-width: 600px)
+        .images-block-one
+            height: 1500px
+    @media screen and (max-width: 400px)
+        .images-block-one
+            height: 2100px
+        

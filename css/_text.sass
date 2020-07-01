@@ -1,0 +1,119 @@
+.text
+    margin-top: 75px
+    margin-left: 10px 
+    &-block
+        height: 175px
+        width: 90%
+        margin-left: 5% 
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        justify-content: space-around   
+        &_border
+            width: 75px
+            opacity: 0.7
+            border: 2px solid
+            border-color: #039900 
+        &_title
+            font-family: 'Noto Sans KR', sans-serif
+            font-weight: 700
+            font-size: 30px
+        &_subtitle 
+            font-family: 'Noto Sans KR', sans-serif
+            font-weight: 600
+            font-size: 25px
+        &_content
+            p
+                margin: 0
+                display: flex
+                flex-wrap: wrap
+                font-family: 'Noto Sans KR', sans-serif
+                font-weight: 300
+                font-size: 15px
+    &-block_xl
+        height: 250px
+        width: 90%
+        margin-left: 5% 
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        justify-content: space-around   
+        &_border
+            width: 75px
+            opacity: 0.7
+            border: 2px solid
+            border-color: #039900 
+            margin-bottom: 10px 
+        &_title
+            font-family: 'Noto Sans KR', sans-serif
+            font-weight: 700
+            font-size: 30px
+        &_subtitle 
+            font-family: 'Noto Sans KR', sans-serif
+            font-weight: 600
+            font-size: 25px 
+            margin-bottom: 10px
+        &_content
+            p
+                margin: 0
+                display: flex
+                flex-wrap: wrap
+                font-family: 'Noto Sans KR', sans-serif
+                font-weight: 300
+                font-size: 15px
+    &-block_m
+        height: 160px
+        width: 90%
+        margin-left: 5% 
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        justify-content: space-around   
+        &_subtitle 
+            font-family: 'Noto Sans KR', sans-serif
+            font-weight: 600
+            font-size: 25px 
+            margin-bottom: 10px
+        &_content
+            p
+                margin: 0
+                display: flex
+                flex-wrap: wrap
+                font-family: 'Noto Sans KR', sans-serif
+                font-weight: 300
+                font-size: 15px
+
+
+    @media screen and (max-width: 768px)
+        .text-block
+            height: 225px
+        .text-block_xl
+            height: 300px
+        .text-block_m
+            height: 230px
+    @media screen and (max-width: 480px)
+        .text-block
+            height: 200px
+            &_title
+                font-size: 25px 
+            &_content
+                max-width: 95%
+                p
+                    font-size: 10px
+        .text-block_xl
+            height: 300px
+            &_title
+                font-size: 25px 
+            &_content
+                max-width: 95%
+                p
+                    font-size: 10px
+        .text-block_m
+            height: 220px
+            &_title
+                font-size: 25px 
+            &_content
+                max-width: 95%
+                p
+                    font-size: 10px
+        

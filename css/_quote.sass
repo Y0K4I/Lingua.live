@@ -1,0 +1,54 @@
+.quote
+    margin-top: 75px
+    &-block 
+        height: 200px
+        width: 100%
+        background-color: #D4D4D4
+        display: flex
+        justify-content: center
+        &_text
+            display: flex
+            flex-direction: column
+            justify-content: center
+            width: 90%
+            &_main
+                display: flex
+                justify-content: center
+                font-family: 'Noto Sans KR', sans-serif
+                font-weight: 500
+                font-size: 20px
+                margin-bottom: 5px
+                margin-top: 10px 
+            &_submain
+                    display: flex
+                    justify-content: flex-end
+                    font-family: 'Noto Sans KR', sans-serif
+                    font-weight: 500
+                    font-size: 17px
+                    margin-right: 158px 
+                    span
+                        margin-right: 5px
+                        font-weight: 700
+    &-block_clear 
+        height: 100px
+        width: 100%
+        display: flex
+        justify-content: center
+        &_text
+            display: flex
+            flex-direction: column
+            justify-content: center
+            width: 60%
+            &_main
+                display: flex
+                justify-content: center
+                font-family: 'Noto Sans KR', sans-serif
+                font-weight: 500
+                font-size: 20px
+                margin-bottom: 20px
+            
+
+    @media screen and (max-width: 768px)
+        .quote-block_text_submain
+            margin: 0
+        
